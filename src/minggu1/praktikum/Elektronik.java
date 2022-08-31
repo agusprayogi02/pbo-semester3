@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package minggu1.praktikum;
 
 /**
@@ -11,12 +8,12 @@ package minggu1.praktikum;
 public class Elektronik {
 
     private boolean tombol;
-    
-    public void nyalakan(){
+
+    public void nyalakan() {
         tombol = true;
     }
-    
-    public void matikan(){
+
+    public void matikan() {
         tombol = false;
     }
 }
