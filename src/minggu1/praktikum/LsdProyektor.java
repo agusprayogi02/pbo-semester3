@@ -7,20 +7,20 @@ package minggu1.praktikum;
 public class LsdProyektor extends Elektronik {
     private int kecerahan, rotasi;
     private String status = "mati";
-    
-    public void tampilLayar(){
+
+    public void tampilLayar() {
         status = "tampil";
     }
-    
-    public void tambahKecerahan(){
+
+    public void tambahKecerahan() {
         kecerahan++;
     }
-    
-    public void kurangiKecerahan(){
+
+    public void kurangiKecerahan() {
         kecerahan--;
     }
-    
-    public void setRotasiLayar(int val){
+
+    public void setRotasiLayar(int val) {
         rotasi = val;
     }
 }
