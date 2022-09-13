@@ -1,19 +1,18 @@
-
 package minggu1.praktikum;
 
-/**
- *
- * @author agus
- */
 public class Elektronik {
 
-    private boolean tombol;
+    private boolean tombolOnOff;
 
     public void nyalakan() {
-        tombol = true;
+        tombolOnOff = true;
     }
 
     public void matikan() {
-        tombol = false;
+        tombolOnOff = false;
+    }
+
+    public boolean tampilStatus() {
+        return tombolOnOff;
     }
 }

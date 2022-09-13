@@ -1,9 +1,5 @@
 package minggu1.praktikum;
 
-/**
- *
- * @author agus
- */
 public class LsdProyektor extends Elektronik {
     private int kecerahan, rotasi;
     private String status = "mati";
