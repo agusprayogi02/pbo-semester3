@@ -15,11 +15,11 @@ public class Karyawan {
     public Karyawan() {
     }
 
-    public void tampilDataKaryawan(){
-        System.out.println("Nama Karyawan       : "+nama);
-        System.out.println("Alamat              : "+alamat);
-        System.out.println("Jenis Kelamin       : "+jk);
-        System.out.println("Umur                : "+umur);
-        System.out.println("Gaji                : Rp "+gaji);
+    public void tampilDataKaryawan() {
+        System.out.println("Nama Karyawan       : " + nama);
+        System.out.println("Alamat              : " + alamat);
+        System.out.println("Jenis Kelamin       : " + jk);
+        System.out.println("Umur                : " + umur);
+        System.out.println("Gaji                : Rp " + gaji);
     }
 }

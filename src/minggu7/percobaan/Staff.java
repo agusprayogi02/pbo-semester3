@@ -12,9 +12,9 @@ public class Staff extends Karyawan {
         this.potongan = potongan;
     }
 
-    public void tampilDataStaff(){
+    public void tampilDataStaff() {
         super.tampilDataKaryawan();
-        System.out.println("Lembur              :  Rp "+lembur);
-        System.out.println("Potongan            :  Rp "+potongan);
+        System.out.println("Lembur              : Rp " + lembur);
+        System.out.println("Potongan            : Rp " + potongan);
     }
 }
