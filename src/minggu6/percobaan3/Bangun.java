@@ -1,6 +1,13 @@
 package minggu6.percobaan3;
 
+import lombok.*;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Setter
+@Getter
 public class Bangun {
-    protected double phi;
-    protected int r;
+
+    private double phi;
+    private int r;
 }

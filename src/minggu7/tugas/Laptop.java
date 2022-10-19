@@ -21,4 +21,6 @@ public class Laptop extends Komputer {
         super.tampilData();
         System.out.println("Jenis Batrei        : "+jnsBatrei);
     }
+
+
 }

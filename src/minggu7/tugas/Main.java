@@ -9,5 +9,8 @@ public class Main {
         Mac mac = new Mac("Macbook Pro", 2, 4,
                 "Intel Core i5", "Lithium Polymer", "Mac OS");
         mac.tampilMac();
+
+        Laptop lap = new Windows();
+        lap.show();
     }
 }

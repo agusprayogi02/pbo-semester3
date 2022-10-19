@@ -16,4 +16,9 @@ public class Windows extends Laptop{
         super.tampilLaptop();
         System.out.println("Fitur               : "+fitur);
     }
+
+    @Override
+    public void show(){
+        System.out.println("Class Windows");
+    }
 }
